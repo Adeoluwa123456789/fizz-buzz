@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x  : hidden;
+    background-image: linear-gradient(to top,red, blue, rgb(102, 11, 11)) ;
+    width: 100%;
+    height: 100vh;
+
+}
+#wel{margin-left: 100px;
+}
+h4{
+    text-align: center;
+}
+#num{
+    width: 400px;
+    padding: 30px;
+    background-color: green;
+    box-shadow: 1px 2px 3px 0.5px;
+    border: none;    margin-top: 150px;
+    border-radius: 10px;
+    margin-left: 400px ;
+}
+button:hover{
+    background-color:yellowgreen;
+    scale: 1.1;
+}
+button{
+    width: 400px;
+    color: red;
+    padding: 10px;
+    text-align: center;
+    background-color: rebeccapurple;
+    box-shadow: 1px 2px 3px 0.5px;
+    margin-left: 400px ;
+    cursor: pointer;
+    border: none;border-radius: 10px;
+}
+#show{
+    background-image: linear-gradient(to top,green, yellow) ;
+    width: 10%;
+    height: 6vh; padding: 10px;box-shadow: 1px 2px 3px 0.5px;
+    margin-left: 540px ;
+    margin-top: 20px;
+    border-radius: 12px;
+
+}
+#err{
+    background-color: brown;
+    color: aqua;box-shadow: 1px 2px 3px 0.5px;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: capitalize;
+    position: relative;
+    top: 100px;
+    width: 20%;
+    padding: 10px;
+    border-radius: 12px;
+    margin-left: 470px;
+}
